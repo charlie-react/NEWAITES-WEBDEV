@@ -1,0 +1,153 @@
+h6{
+    color: rgb(36, 229, 58);
+    font-size: medium;
+}
+
+
+body{
+    background-color: white;
+    display: block;
+    
+}
+.targeted{
+    color: blue;
+}
+/* div{
+    color: blue;
+} */
+
+#signup-button{
+color: white;
+background-color: blue;
+/* padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 8px;
+padding-top: 8px; */
+padding:8px 24px ;
+/* margin-left: -40px; */
+border: none;
+width: 120px;
+border-radius: 6px;
+margin-top: 10px;
+}
+span{
+    color: red;
+    font-style: italic;
+}
+.para{
+    border: 2px solid red;
+}
+#para-parent{
+    border: 4px solid red;
+    /* margin-top: 40px; */
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  gap: 20px;
+  padding: 10px;
+}
+ /* .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    place-items: center;
+ } */
+.item1{
+   padding: 6px;
+ 
+   /* margin-right: auto; */
+  
+}
+.item1 p{
+    font-size: large;
+    line-height: 30px;
+}
+.item1 h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+.item2 img{
+width: 400px;
+border-radius: 40px;
+
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    overflow: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding:4px 20px;
+   
+}
+nav a{
+    color: white;
+   text-decoration: none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+}
+nav h1{
+   
+    font-size: 30px;
+}
+nav button{
+    
+    color: black;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.buttons{
+/* border: 2px solid red; */
+width: 200px;
+}
+#register{
+    margin-right: 8px;
+    /* position: absolute;
+    bottom: 0px;
+    left: 200px; */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 5, 5);
+    color: white;
+    border-radius: 8px;
+    padding: 30px;
+    gap: 10px;
+    width: 500px;
+    margin: auto;
+
+}
+form button{
+    width: 120px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+input{
+   width: 200px; 
+}
