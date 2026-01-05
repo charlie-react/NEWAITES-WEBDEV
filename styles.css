@@ -86,11 +86,11 @@ nav{
     top: 0;
     left: 0;
     justify-content: space-between;
-    overflow: auto;
     align-items: center;
     background-color: black;
     color: white;
     padding:4px 20px;
+   
    
 }
 nav a{
@@ -150,4 +150,58 @@ form button{
 }
 input{
    width: 200px; 
+}
+.data{
+  margin: auto 4px;
+  padding: 8px;
+}
+.menu{
+    display: none;
+}
+
+
+
+
+
+/* Desktop version example */
+
+/* @media (min-width:1200px) {
+    body{
+        background-color: rgb(15, 140, 181);
+    }
+    .buttons{
+        display: none;
+    }
+    .container{
+        flex-direction: row;
+    }
+} */
+
+/* MOBILE VERSION */
+
+@media (max-width:768px) {
+    body{
+        background-color: lightsalmon;
+    }
+    .container{
+        flex-direction: column;
+    }
+    form{
+        width: 50%;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 4px 0px;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    
+    }
+    .buttons{
+        display: none;
+    }
 }
