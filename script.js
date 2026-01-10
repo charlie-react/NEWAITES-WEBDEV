@@ -40,30 +40,35 @@ function changeStyle() {
 // button.addEventListener("click", changeStyle)
 
 
-const heading = document.getElementById("heading")
-console.log(heading)
+
 const newForm = document.getElementById("newform")
 console.log(newForm)
-const newBtn = document.getElementById("newbtn")
-console.log(newBtn)
 
-function changeMessage(){
 
-    if(heading.textContent ==="Welcome"){
-        heading.textContent = "Hello there"
-        heading.style.color= "green"
-    }
-    else{
-        heading.textContent = "Welcome"
-        heading.style.color = "black"
-    }
-}
+// function changeMessage(){
+
+//     if(heading.textContent ==="Welcome"){
+
+//         heading.textContent = "Hello there"
+//         heading.style.color= "green"
+//     }
+//     else{
+
+//         heading.textContent = "Welcome"
+//         heading.style.color = "black"
+//     }
+// }
+
+ 
+ 
+
+ 
 
 // function changeFormStyle() {
 //     newForm.style.backgroundColor = "red"
 // }
 
-newBtn.addEventListener("click", changeMessage)
+// newBtn.addEventListener("click", changeMessage)
 
 // FUNCTIONS
 
@@ -110,3 +115,38 @@ subNums()
 // }
 
 // checkAge()
+
+
+// ARRAYS
+
+
+
+
+const heading = document.getElementById("heading")
+console.log(heading)
+const newBtn = document.getElementById("newbtn")
+console.log(newBtn)
+
+let colors = ["red","blue","green"]
+
+
+console.log(colors)
+
+console.log(colors[0])
+console.log(colors[2])
+
+let index = 0
+
+function changeColor(){
+    heading.style.color  = colors[index]
+
+    if(index === 2){
+        index = 0
+    }else{
+        index++
+    }
+}
+
+newBtn.addEventListener("click",changeColor)
+
+
